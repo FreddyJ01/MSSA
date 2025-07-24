@@ -12,3 +12,4 @@
 /Users/freddy/Desktop/PARA/1-Projects/MSSA/Projects/MSSA/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.pdb
 /Users/freddy/Desktop/PARA/1-Projects/MSSA/Projects/MSSA/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.genruntimeconfig.cache
 /Users/freddy/Desktop/PARA/1-Projects/MSSA/Projects/MSSA/ConsoleApp1/obj/Debug/net8.0/ref/ConsoleApp1.dll
+/Users/freddy/Desktop/PARA/1-Projects/MSSA/Projects/MSSA/ConsoleApp1/obj/Debug/net8.0/ConsoleApp1.sourcelink.json
