@@ -1,12 +1,12 @@
-﻿using System.Reflection;
-using System.Text;
-
-namespace ConsoleApp1;
-
+﻿namespace ConsoleApp1;
+ 
+using System;
+using System.ComponentModel.Design;
+ 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        
+        string program = "The quick brown fox jumps over the lazy dog";
     }
 }
