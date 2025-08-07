@@ -1,12 +1,9 @@
 ﻿namespace ConsoleApp1;
-using System;
-using System.ComponentModel.Design;
- 
+
 class Program
 {
-    static void Main()
+    static void Main(string[] Args)
     {
-        // String Builders
         
-    }
+    }   
 }
