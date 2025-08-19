@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h6GAevow1e4=",
+  "dgSpecHash": "lt3t71sR5W8=",
   "success": true,
-  "projectFilePath": "/Users/freddy/Desktop/PARA/1Projects/MSSA/TechDev/Projects/Environment/ConsoleApp1/ConsoleApp1.csproj",
+  "projectFilePath": "/Users/freddy/Desktop/PARA/1Projects/MSSA-Tech-Dev/Projects/Environment/ConsoleApp1/ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "/Users/freddy/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
     "/Users/freddy/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
