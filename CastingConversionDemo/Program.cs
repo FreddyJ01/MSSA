@@ -1,7 +1,4 @@
-﻿using System.Reflection;
-using System.Text;
-
-namespace ConsoleApp1;
+﻿namespace CastingConversionDemo;
 
 class Program
 {
