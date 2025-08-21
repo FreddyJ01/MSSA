@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "l4LHKfd4uQ0=",
+  "success": true,
+  "projectFilePath": "/Users/freddy/Desktop/PARA/1Projects/MSSA-Tech-Dev/Projects/Environment/MSSA/FortuneTellerProject/FortuneTellerProject.csproj",
+  "expectedPackageFiles": [
+    "/Users/freddy/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/Users/freddy/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "/Users/freddy/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.15/microsoft.netcore.app.host.osx-arm64.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
