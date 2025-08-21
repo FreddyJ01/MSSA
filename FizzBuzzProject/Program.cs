@@ -1,7 +1,5 @@
-﻿using System.Reflection;
+﻿namespace FizzBuzzProject;
 
-namespace ConsoleApp1;
- 
 class Program
 {
     static void Main(string[] args)
@@ -19,5 +17,4 @@ class Program
             
         }
     }
- 
 }
