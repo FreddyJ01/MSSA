@@ -12,28 +12,9 @@ Welcome to my learning portfolio! This repository tracks my journey through the 
 
 ---
 
-## File Structure
-
-```plaintext
-.
-├── AAA/           # Daily Demo Environment
-├── Demos/         # In-Class Demos and Example Code
-├── Projects/      # Projects assigned in Class
-├── .DS_Store      # System file, safe to ignore
-├── .gitignore     # Git configuration file
-└── README.md      # This file!
-```
-
----
-
 ## Projects
 
 The `Projects` folder contains assignments and projects built during the MSSA program.
-
-**Explore my projects:**  
-[Projects Directory](https://github.com/FreddyJ01/MSSA/tree/main/Projects)
-
-### Individual Projects
 
 [EmailPrinterProject](https://github.com/FreddyJ01/MSSA/tree/main/Projects/EmailPrinterProject) - Generates email addresses from employee names using multidimensional arrays and string manipulation
 
@@ -53,12 +34,7 @@ The `Projects` folder contains assignments and projects built during the MSSA pr
 
 ## Demos
 
-The `Demos` folder features daily code samples and in-class exercises. These are designed to reinforce concepts taught each day and may include:
-
-**Check out the demos:**  
-[Demos Directory](https://github.com/FreddyJ01/MSSA/tree/main/Demos)
-
-### Individual Demos
+The `Demos` folder features daily code samples and in-class exercises. These are designed to reinforce concepts taught each day.
 
 [ArrayListDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/ArrayListDemo) - Demonstrates basic ArrayList operations for storing and accessing dynamic collections
 
@@ -88,17 +64,25 @@ The `Demos` folder features daily code samples and in-class exercises. These are
 
 ---
 
+## File Structure
+
+```plaintext
+.
+├── AAA/           # Daily Demo Environment
+├── Demos/         # In-Class Demos and Example Code
+├── Projects/      # Projects assigned in Class
+├── .DS_Store      # System file, safe to ignore
+├── .gitignore     # Git configuration file
+└── README.md      # This file!
+```
+
+---
+
 ## How to Use This Repo
 
 - **Browse folders** for projects and demos to see my daily progress.
 - **Reference code** and notes for your own learning—everything here is open and meant to help others!
 - **Suggestions and contributions** are welcome. Open an issue or pull request if you have ideas or improvements.
-
----
-
-## Daily Updates
-
-I update this repository every day with new demos, code samples, and project work. Come back often to track my journey and see what I've learned!
 
 ---
 
