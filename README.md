@@ -1,5 +1,4 @@
 # MSSA Cloud Application Developer – Learning Portfolio
-![Microsoft Logo](Resources/MicrosoftLogo.jpg)
 
 Welcome to my learning portfolio! This repository tracks my journey through the Microsoft Software and Systems Academy (MSSA) Cloud Application Developer program. Here, you'll find daily updates, code samples, demos, and class projects—showcasing my progress and offering resources for others who want to learn along the way.
 
