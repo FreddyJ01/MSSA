@@ -62,6 +62,8 @@ The `Demos` folder features daily code samples and in-class exercises. These are
 
 [WhileLoopDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/WhileLoopDemo) - Demonstrates while and do-while loops with random number generation
 
+[TryCatchDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/TryCatchDemo) - Demonstrates a try-catch block for exception handling
+
 ---
 
 ## File Structure
@@ -79,6 +81,8 @@ The `Demos` folder features daily code samples and in-class exercises. These are
 ---
 
 ## How to Use This Repo
+- **New Project** dotnet new console -o MyConsoleApp -f net8.0
+- **New sln File** dotnet new sln -> dotnet sln add "csproj-file"
 
 - **Browse folders** for projects and demos to see my daily progress.
 - **Reference code** and notes for your own learning—everything here is open and meant to help others!
