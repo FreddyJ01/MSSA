@@ -65,6 +65,7 @@ The `Demos` folder features daily code samples and in-class exercises. These are
 [TryCatchDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/TryCatchDemo) - Demonstrates a try-catch block for exception handling
 
 [ExtensionMethodDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/ExtensionMethodDemo) - Showcases Extension Methods
+
 ---
 
 ## File Structure
