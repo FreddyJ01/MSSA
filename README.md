@@ -66,6 +66,8 @@ The `Demos` folder features daily code samples and in-class exercises. These are
 
 [ExtensionMethodDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/ExtensionMethodDemo) - Showcases Extension Methods
 
+[LaunchJsonDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/LaunchJsonDemo) - Showcases the importance and how to use Launch.json Files
+
 ---
 
 ## File Structure
