@@ -462,19 +462,26 @@ public class Person
     // Omitted for brevity.
 }
 
-Restrict access to properties
-Completed
-100 XP
-11 minutes
-A class can specify how accessible each of its members is to code outside of the class. Methods and variables that aren't intended to be used from outside of the class or assembly can be hidden to limit the potential for coding errors or malicious exploits.
 
-Some methods and properties are meant to be called or accessed from code outside a class, known as client code. Other methods and properties might be only for use in the class itself. It's important to limit the accessibility of your code so that only the intended client code can reach it. You specify how accessible your types and their members are to client code by using the following access modifiers:
+## Restricting Access to Properties
 
-public: The type or member is accessible by any other code in the same assembly or another assembly that references it.
-protected: The type or member is only accessible by code in the same class or a derived class.
-internal: The type or member is accessible by any code in the same assembly, but not from another assembly.
-protected internal: The type or member is accessible by any code in the same assembly, or by any derived class in another assembly.
-private: The type or member is only accessible by code in the same class or struct.
-private protected: The type or member is only accessible by code in the same assembly, and only by code in the same class or a derived class.
-Class members are assigned private access by default.
+A class can control how accessible each of its members is to code outside of the class. This helps:
+- Prevent coding errors
+- Protect sensitive data
+- Limit malicious exploits
+
+Some members are meant to be accessed from outside the class (client code), while others are for internal use only. It's important to set the right accessibility so only intended code can reach your members.
+
+### Access Modifiers in C#
+
+| Modifier              | Description |
+|-----------------------|-------------|
+| `public`              | Accessible by any code in the same assembly or another assembly that references it. |
+| `protected`           | Accessible only by code in the same class or a derived class. |
+| `internal`            | Accessible by any code in the same assembly, but not from another assembly. |
+| `protected internal`  | Accessible by any code in the same assembly, or by any derived class in another assembly. |
+| `private`             | Accessible only by code in the same class or struct. |
+| `private protected`   | Accessible only by code in the same assembly, and only by code in the same class or a derived class. |
+
+> **Note:** Class members are assigned `private` access by default.
 
