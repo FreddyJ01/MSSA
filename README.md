@@ -68,6 +68,8 @@ The `Demos` folder features daily code samples and in-class exercises. These are
 
 [LaunchJsonDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/LaunchJsonDemo) - Showcases the importance and how to use Launch.json Files
 
+[LINQDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/LINQDemo) - Showcases how to use LINQ and DQQ to query.
+
 ---
 
 ## File Structure
