@@ -72,6 +72,14 @@ The `Demos` folder features daily code samples and in-class exercises. These are
 
 ---
 
+### Notes
+
+The `Notes` folder contains organized study notes, explanations, and reference material for key C# concepts and topics.
+
+[ClassPropertiesAndMethods](https://github.com/FreddyJ01/MSSA/tree/main/Notes/ClassPropertiesAndMethods.md) - Covers class members, properties, methods, accessors, and access modifiers in C#
+
+---
+
 ## File Structure
 
 ```plaintext
@@ -79,6 +87,7 @@ The `Demos` folder features daily code samples and in-class exercises. These are
 ├── AAA/           # Daily Demo Environment
 ├── Demos/         # In-Class Demos and Example Code
 ├── Projects/      # Projects assigned in Class
+├── Notes/         # Study notes and reference material
 ├── .DS_Store      # System file, safe to ignore
 ├── .gitignore     # Git configuration file
 └── README.md      # This file!
