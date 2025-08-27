@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": 
+    [
+        {
+            "name": ".NET: Launch with APP_MODE",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "/Users/freddy/Desktop/PARA/1Projects/TechDev/MSSA/AAA/bin/Debug/net8.0/aaa.dll",
+            "env": 
+            {
+                "APP_MODE": "Development"
+            }
+        }
+    ]
+}
