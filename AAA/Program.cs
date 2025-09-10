@@ -35,7 +35,7 @@ class Program
 
             if (i == deleteIndex)
             {
-                newerArr[i] 
+                // newerArr[i] 
             }
 
             newerArr[i] = arr[i];

@@ -13,8 +13,6 @@ Big O notation describes the **upper bound** of an algorithm's running time. It 
 - **Example:** O(n) means the running time increases linearly with input size.
 - **Usage:** Used to express the maximum time or space an algorithm could require.
 
-![Big O Notation](BigONotation.png)
-
 ---
 
 ## Big Omega Notation
@@ -31,8 +29,6 @@ Big Theta notation describes a **tight bound** on an algorithm's running time. I
 - **Example:** Θ(n) means the running time is always linear.
 - **Usage:** Used when the upper and lower bounds are the same.
 
-![Big Theta Notation](image.png)
-
 ---
 
 ## Common Complexity Classes
@@ -43,6 +39,7 @@ Big Theta notation describes a **tight bound** on an algorithm's running time. I
 | O(n)     | Linear         | Simple search            |
 | O(n log n)| Linearithmic  | Merge sort, heapsort     |
 | O(n^2)   | Quadratic      | Bubble sort, selection sort |
+| O(n^3)   | 
 | O(2^n)   | Exponential    | Recursive Fibonacci      |
 | O(n!)    | Factorial      | Traveling salesman brute force |
 
@@ -52,8 +49,6 @@ Big Theta notation describes a **tight bound** on an algorithm's running time. I
 - **Time Complexity:** How the runtime grows as input size increases.
 - **Space Complexity:** How the memory usage grows as input size increases.
 
-![Time and Space Complexity](image-1.png)
-
 ---
 
 ## Tips for Analyzing Algorithms
@@ -62,3 +57,9 @@ Big Theta notation describes a **tight bound** on an algorithm's running time. I
 - Use asymptotic analysis to compare scalability, not exact performance.
 
 ---
+
+## Time and Space Complexity for Different Algorithms
+![Table](image.png)
+
+## Best Time Complexity for Different Data Structures for Different Operations
+![alt text](image-1.png)
