@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Projects;
 
-class GridMakerProject
+class Program
 {
     public int Size { get; set; }
     public char FirstChar { get; set; }

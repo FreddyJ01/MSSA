@@ -1,6 +1,6 @@
 ﻿namespace AAA;
 
-class StackDemo
+class Program
 {
     static void Main()
     {

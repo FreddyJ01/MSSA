@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Projects;
 
-class EmailPrinterProject
+class Program
 {
     static void Main(string[] Args)
     {

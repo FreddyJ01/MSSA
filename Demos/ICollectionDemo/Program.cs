@@ -1,4 +1,4 @@
-﻿namespace AAA;
+﻿namespace MSSA.Demos;
  
 class Program
 {

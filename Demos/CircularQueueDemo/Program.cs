@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography;
-
-namespace AAA;
+﻿namespace MSSA.Demos;
 
 class Program
 {

@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Projects;
 
-class MiniRPGProject
+class Program
 {
     static void Main(string[] args)
     {

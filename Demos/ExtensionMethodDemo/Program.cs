@@ -9,7 +9,7 @@ public static class StringHelper
         }
     }
 
-class ExtensionMethodDemo
+class Program
 {
     static void Main(string[] Args)
     {

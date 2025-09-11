@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Projects;
 
-class FizzBuzzProject
+class Program
 {
     static void Main(string[] args)
     {

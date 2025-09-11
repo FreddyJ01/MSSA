@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Demos;
 
-class RecursionDemo
+class Program
 {
     static int counter = 0;
     static void Main(string[] args)

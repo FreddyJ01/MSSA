@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Demos;
 
-class BitArrayDemo
+class Program
 {
     static void Main(string[] Args)
     {

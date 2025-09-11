@@ -1,5 +1,5 @@
-﻿namespace AAA;
-//stacks and queues using system.collections.generic
+﻿namespace MSSA.Demos;
+
 class Program
 {
     static void Main(string[] args)
