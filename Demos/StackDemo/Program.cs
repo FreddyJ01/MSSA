@@ -1,64 +1,83 @@
-﻿namespace MSSA.Demos;
+﻿namespace AAA;
 
 class StackDemo
 {
-    static void Main(string[] Args)
+    static void Main()
     {
-        Stack stack = new Stack(5);
-        stack.Push(10);
-        stack.Push(20);
-        stack.Push(30);
-
-        System.Console.WriteLine(stack.Peek());
-        System.Console.WriteLine(stack.Pop());
-        System.Console.WriteLine(stack.Pop());
-        System.Console.WriteLine(stack.Pop());
-        stack.Push(17);
-        System.Console.WriteLine(stack.Pop());
-
-        string text = "Hello";
-        System.Console.WriteLine(text);
-        Stack<char> stack = new Stack<char>();
-
-        foreach (char c in text)
+        MyStack stack = new MyStack(5);
+        stack.Push(1);
+        stack.Push(2);
+        stack.Push(3);
+        stack.Push(4);
+        stack.Push(5);
+   
+        Console.WriteLine("Current stack");
+        for (int i = stack.top; i >= 0; i--)
         {
-            stack.Push(c);
+            Console.WriteLine(stack.stackArray[i]);
         }
-
-        while (stack.Count > 0)
-            System.Console.Write(stack.Pop());
+ 
+        try
+        {
+            Console.WriteLine("Popped value: " + stack.Pop());
+            Console.WriteLine("Peeked value: " + stack.Peek());
+            Console.WriteLine("Popped value: " + stack.Pop());
+            Console.WriteLine("Popped value: " + stack.Pop());
+            Console.WriteLine("Peeked value: " + stack.Peek());
+            Console.WriteLine("Popped value: " + stack.Pop());
+            Console.WriteLine("Popped value: " + stack.Pop());
+            Console.WriteLine("Peeked value: " + stack.Peek());
+            Console.WriteLine("Popped value: " + stack.Pop());
+        }
+        catch (InvalidOperationException e)
+        {
+            Console.WriteLine(e.Message);
+        }
+ 
+        Console.WriteLine("Current stack");
+        for (int i = stack.top; i >= 0; i--)
+        {
+            Console.WriteLine(stack.stackArray[i]);
+        }
+ 
     }
-
 }
-
-class Stack
+ 
+public class MyStack
 {
-    int[] items;
-    int top;
-
-    public Stack(int size)
+    public int[] stackArray;
+    public int top;
+ 
+    public MyStack(int size)
     {
-        items = new int[size];
+        stackArray = new int[size];
         top = -1;
     }
-
+ 
     public void Push(int value)
     {
-        items[++top] = value;
+        if (top == stackArray.Length - 1)
+        {
+            throw new InvalidOperationException("Stack overvflow");
+        }
+        stackArray[++top] = value;
     }
-
+ 
     public int Pop()
     {
-        return items[top--];
+        if (top == -1)
+        {
+            throw new InvalidOperationException("Stack undervflow");
+        }
+        return stackArray[top--];
     }
-
+ 
     public int Peek()
     {
-        return items[top];
-    }
-
-    public bool isEmpty()
-    {
-        return top == -1;
+        if (top == -1)
+        {
+            throw new InvalidOperationException("Stack undervflow");
+        }
+        return stackArray[top];
     }
 }
