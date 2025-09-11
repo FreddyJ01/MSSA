@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Demos;
 
-class Program
+class ClassesDemo
 {
     static void Main(string[] args)
     {

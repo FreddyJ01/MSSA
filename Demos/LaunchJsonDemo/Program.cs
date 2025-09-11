@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Demos;
 
-class Program
+class LaunchJsonDemo
 {
     // Move .vscode folder into rood diretory before running in debug mode
     static void Main(string[] Args)
