@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Demos;
 
-class TryCatchDemo
+class Program
 {
     static void Main(string[] Args)
     {

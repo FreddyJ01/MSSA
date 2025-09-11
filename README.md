@@ -70,6 +70,14 @@ The `Demos` folder features daily code samples and in-class exercises. These are
 
 [LINQDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/LINQDemo) - Showcases how to use LINQ and DQQ to query.
 
+[CircularQueueDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/CircularQueueDemo) - 11 September 2025
+
+[DoubleEndedDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/DoubleEndedDemo) - 11 September 2025
+
+[ICollectionDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/ICollectionDemo) - 11 September 2025
+
+[SystemCollectionsGenericDemo](https://github.com/FreddyJ01/MSSA/tree/main/Demos/SystemCollectionsGenericDemo) - 11 September 2025
+
 ---
 
 ### Notes
@@ -102,6 +110,14 @@ The `Notes` folder contains organized study notes, explanations, and reference m
 - **Browse folders** for projects and demos to see my daily progress.
 - **Reference code** and notes for your own learning—everything here is open and meant to help others!
 - **Suggestions and contributions** are welcome. Open an issue or pull request if you have ideas or improvements.
+
+---
+## Make a New Demo
+cd /Users/freddy/Documents/1Projects/GitHub/MSSA/Demos
+dotnet new console -o <NAME> -f net8.0
+cd /Users/freddy/Documents/1Projects/GitHub/MSSA/Demos/<NAME>
+dotnet new sln
+dotnet sln add <NAME>.csproj
 
 ---
 

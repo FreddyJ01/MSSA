@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.VisualBasic;
 
-class ZooKeeperProject
+class Program
 {
     // Creates the instance that generates a random number to randomize our give array in RandomizeAnimals method
     static Random groupRandomizer = new Random();
