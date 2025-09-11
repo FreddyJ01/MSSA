@@ -1,5 +1,4 @@
-﻿using System;
-namespace ExtensionMethodDemo;
+﻿namespace MSSA.Demos;
 
 public static class StringHelper
     {
@@ -10,7 +9,7 @@ public static class StringHelper
         }
     }
 
-class Program
+class ExtensionMethodDemo
 {
     static void Main(string[] Args)
     {

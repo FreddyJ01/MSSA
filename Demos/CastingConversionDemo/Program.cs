@@ -1,6 +1,6 @@
-﻿namespace CastingConversionDemo;
+﻿namespace MSSA.Demos;
 
-class Program
+class CastingConversionDemo
 {
     static void Main(string[] args)
     {

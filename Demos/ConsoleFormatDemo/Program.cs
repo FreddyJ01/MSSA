@@ -1,6 +1,6 @@
-﻿namespace ConsoleFormatDemo;
+﻿namespace MSSA.Demos;
 
-class Program
+class ConsoleFormatDemo
 {
     static void Main()
     {

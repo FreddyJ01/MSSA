@@ -1,10 +1,10 @@
-﻿namespace ZooKeeperProject;
+﻿namespace MSSA.Projects;
 
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.VisualBasic;
 
-class Program
+class ZooKeeperProject
 {
     // Creates the instance that generates a random number to randomize our give array in RandomizeAnimals method
     static Random groupRandomizer = new Random();

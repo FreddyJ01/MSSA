@@ -1,6 +1,6 @@
-﻿namespace StackDemo;
+﻿namespace MSSA.Demos;
 
-class Program
+class StackDemo
 {
     static void Main(string[] Args)
     {

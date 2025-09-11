@@ -57,9 +57,3 @@ Big Theta notation describes a **tight bound** on an algorithm's running time. I
 - Use asymptotic analysis to compare scalability, not exact performance.
 
 ---
-
-## Time and Space Complexity for Different Algorithms
-![Table](image.png)
-
-## Best Time Complexity for Different Data Structures for Different Operations
-![alt text](image-1.png)

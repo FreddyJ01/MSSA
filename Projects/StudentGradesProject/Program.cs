@@ -1,6 +1,6 @@
-﻿namespace StudentGradesProject;
+﻿namespace MSSA.Projects;
 
-class Program
+class StudentGradesProject
 {
     static void Main()
     {

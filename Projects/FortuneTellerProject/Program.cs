@@ -1,6 +1,6 @@
-﻿namespace FortuneTellerProject;
+﻿namespace MSSA.Projects;
 
-class Program
+class FortuneTellerProject
 {
     static void Main(string[] Args)
     {

@@ -1,6 +1,6 @@
-﻿namespace QueueDemo;
+﻿namespace MSSA.Demos;
 
-class Program
+class QueueDemo
 {
     static void Main(string[] Args)
     {

@@ -1,8 +1,8 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-namespace DebugDemo;
+namespace MSSA.Demos;
 
-class Demo1
+class DebugDemo
 {
     static void Main(string[] args)
     {

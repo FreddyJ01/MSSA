@@ -1,6 +1,6 @@
-﻿namespace ArrayListDemo;
+﻿namespace MSSA.Demos;
 
-class Program
+class ArrayListDemo
 {
     static void Main(string[] Args)
     {
