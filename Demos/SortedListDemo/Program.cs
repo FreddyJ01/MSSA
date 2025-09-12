@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Demos;
 
-class Program
+class SortedListDemo
 {
     static void Main(string[] Args)
     {

@@ -1,7 +1,7 @@
 ﻿namespace MSSA.Demos;
 
 public delegate int Calculator(int a, int b);
-class Program
+class DelegatesDemo
 {
     // Methods matching the delegates signature
     static int Add(int x, int y) => x + y;

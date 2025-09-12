@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Demos;
 
-class Program
+class WhileLoopDemo
 {
     static void Main(string[] args)
     {

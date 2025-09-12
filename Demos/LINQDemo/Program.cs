@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Demos;
 
-class Program
+class LINQDemo
 {
     static void Main(string[] Args)
     {

@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Demos;
 
-class Program
+class IntAndFloatDemo
 {
     static void Main(string[] args)
     {

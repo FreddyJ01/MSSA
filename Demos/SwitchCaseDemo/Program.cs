@@ -1,6 +1,6 @@
 ﻿namespace MSSA.Demos;
 
-class Program
+class SwitchCaseDemo
 {
     static void Main(string[] args)
     {

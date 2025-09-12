@@ -2,7 +2,7 @@
 
 namespace MSSA.Demos;
 
-class Program
+class DebugDemo
 {
     static void Main(string[] args)
     {

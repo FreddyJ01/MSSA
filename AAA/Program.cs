@@ -1,2 +1,6 @@
 ﻿namespace AAA;
 
+class Program
+{
+    
+}
