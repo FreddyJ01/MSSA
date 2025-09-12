@@ -1,6 +1,3 @@
 ﻿namespace AAA;
 
-class Program
-{
-    
-}
+class Program {};
