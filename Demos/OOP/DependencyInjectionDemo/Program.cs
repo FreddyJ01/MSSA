@@ -1,4 +1,5 @@
-﻿public class FileManager
+﻿//Dependency Injection Demo
+public class FileManager
 {
     private readonly IStorage _storage;
     public FileManager(IStorage storage) { _storage = storage; }

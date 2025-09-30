@@ -4,6 +4,28 @@ Welcome to my learning portfolio! This repository tracks my journey through the 
 
 ---
 
+## Repository Structure
+
+```
+MSSA/
+├── Coursework/          # Labs, assignments, and daily exercises
+│   ├── Labs/           # Lab exercises and solutions
+│   └── Assignments/    # Course assignments
+├── Demos/              # Categorized learning demonstrations
+│   ├── Fundamentals/   # Basic C# concepts
+│   ├── ControlFlow/    # Loops, conditionals, recursion
+│   ├── Collections/    # Data structures and collections
+│   ├── OOP/           # Object-oriented programming
+│   ├── AdvancedTopics/ # LINQ, async, extensions, APIs
+│   ├── IO/            # File operations and streams
+│   └── Testing/       # Debugging and error handling
+├── Projects/          # Major assignments and projects
+├── Notes/            # Study notes and reference materials
+└── Sandbox/          # Experimental and scratch code
+```
+
+---
+
 ## Purpose
 
 - **Track Progress:** Daily commits show my growth and learning throughout the MSSA program.
